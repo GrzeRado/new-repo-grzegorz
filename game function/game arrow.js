@@ -31,7 +31,7 @@ function makeGameBoard(container){
 
     board.style.transform = "translate(-50%, 50%)"
 
-    (container = container || document.body)
+    ;(container = container || document.body)
 
     container.appendChild(board)
 }
