@@ -34,4 +34,27 @@ function makeGameBoard(container){
     ;(container = container || document.body)
 
     container.appendChild(board)
+
+    return board
 }
+
+
+function makePlayer(){
+    var player = document.createElement('div')
+    board.style.backgroundColor = 'red'
+
+    board.style.position = 'absolute'
+    player.style.left = "0%"
+    player.style.top = "0%"
+
+    board.appendChild(player)
+
+    return player
+
+}
+
+function movePlayerRight(player) {
+    var currPlayerLeftPosition = Number(player.style.left.slice (0,-1))
+    var nextPlayerLeftPosition = Number(player.style.left.slice (0,-1))
+
+}var
