@@ -17,4 +17,4 @@ fetch ('https://randomuser.me/api')
         block.innerHTML = '<p>' + a + '</p><p><img src ="' + b + '"></p><p>' + c + '</p>'
 
     })
-    // koniec
+    // koniec//
