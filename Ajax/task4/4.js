@@ -3,5 +3,7 @@ fetch ('https://randomuser.me/api')
         return response.json()
     })
     .then(function(data){
-        console.log (data.results[0].name)
+        console.log (data.results[0].name.last)
+        console.log (data.results[0].picture.large)
+        console.log (data.results[0].phone)
     })
