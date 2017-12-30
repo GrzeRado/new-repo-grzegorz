@@ -38,6 +38,10 @@
           <option name="url" value="https://github.com/GrzeRado/kurs_git_1.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/GrzeRado/Practise-of-JS.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\Anna\WebstormProjects\Practise of Javascript" />
